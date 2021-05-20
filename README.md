@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# POS Integration Demo (Front-end)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### How to start app
 
-## Available Scripts
+```js
+// Install yarn packages
+yarn
 
-In the project directory, you can run:
+// Run app locally
+yarn run electron-react
 
-### `yarn start`
+// Command for running tests
+yarn run test
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Code implementation & Core knowledge points (covered)
 
-### `yarn test`
+1. For Components: I have introduced <a href="https://atomicdesign.bradfrost.com/chapter-2/" target="_blank">`Atomic`</a> component design methodology (I only used for atom and template 2 layers because of time limit, later can implement 4 layers [`atom`, `molecule`, `organism`, `template`])
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. For Unit testing: utilized React-Testing Library (builtin no extra configuration for now, save time)
 
-### `yarn build`
+3. Using proxy setup in `package.json` file fot localhost API request (avoid CORS error)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. `BEM` methodology for CSS component custom styling
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. `Atomic` component design methodology for component folder structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+6. Using React `Hooks` for making code shorter and easier to be reade
 
-### `yarn eject`
+7. `SOLID` principle: `SRP` (Single Responsibility Principle) implemented
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+8. `DRY` rule for avoid same logic occurred multiple times
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+9. Using `Context API` for handling state share
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+10. Keeping each component file lees than `200` lines (clean and easier to read)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+11. using CSS `var` to make color code reusable for css file
 
-## Learn More
+12. Extract function logic out and put it into a `utils` folder as `helper` functions, which is easier to maintain later
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+13. Unit tests covered (simple ones/ time limit)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+14. Able to keep user order state data `updated` and also ensured user is able to view the total cost before click pay button 
 
-### Code Splitting
+### Future improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Need to write a new route to fetch `/products` instead of using the mock data
 
-### Analyzing the Bundle Size
+2. Need display a `popup` after payment process (API request) has been successfully to show either API response
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+3. Should to add `ES Linter`
 
-### Making a Progressive Web App
+4. Should cover more unit tests with unit tests coverage settings
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+5. Need to write more explanation comments for codebase
 
-### Advanced Configuration
+6. Should put Context store logic inside `globalContext` file not App file (Sorry, time limited)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### References
 
-### Deployment
+1. Electron Configuration Sample: https://github.com/electron/electron-quick-start/blob/master/main.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+2. Write data into a JSON file (NodeJS): https://stackoverflow.com/questions/36093042/how-do-i-add-to-an-existing-json-file-in-node-js
 
-### `yarn build` fails to minify
+3. Reduce method: https://dm-tipify.netlify.app/js-reduce-method.html
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. generate uuid: https://github.com/uuidjs/uuid

@@ -1,0 +1,7 @@
+#dashboard-layout.container-fluid {
+  padding: 0;
+}
+
+#dashboard-layout .row {
+  --bs-gutter-x: 0;
+}

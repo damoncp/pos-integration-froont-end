@@ -1,0 +1,620 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Dashboard /> component Snapshot test for <Dashboard /> 1`] = `
+<DocumentFragment>
+  <div
+    class="container-fluid"
+    data-testid="dashboard-layout"
+    id="dashboard-layout"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-8"
+        nogutters="true"
+      >
+        <div
+          class="products"
+        >
+          <h5
+            class="text--centered text--bold heading__default"
+          >
+            Products
+          </h5>
+          <div
+            class="container"
+          >
+            <div
+              class="row"
+            >
+              <h5
+                class="text--bold text--capitalize subheading__default"
+              >
+                burger
+              </h5>
+              <hr />
+              <div
+                class="row"
+              >
+                <div
+                  class="col-3"
+                >
+                  <div
+                    class="product-card card"
+                  >
+                    <img
+                      alt="Chicken Burger"
+                      class="product-card__image card-img-top"
+                      data-testid="product-card-image"
+                      src="https://media.istockphoto.com/photos/bacon-burger-picture-id520215281?s=612x612"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <h5
+                        class="product-card__title card-title"
+                      >
+                        <span
+                          data-testid="product-card-price"
+                        >
+                          $12
+                        </span>
+                         - 
+                        <span
+                          data-testid="product-card-title"
+                        >
+                          Chicken Burger
+                        </span>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-3"
+                >
+                  <div
+                    class="product-card card"
+                  >
+                    <img
+                      alt="Vegan Burger"
+                      class="product-card__image card-img-top"
+                      data-testid="product-card-image"
+                      src="https://media.istockphoto.com/photos/bacon-burger-picture-id520215281?s=612x612"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <h5
+                        class="product-card__title card-title"
+                      >
+                        <span
+                          data-testid="product-card-price"
+                        >
+                          $12
+                        </span>
+                         - 
+                        <span
+                          data-testid="product-card-title"
+                        >
+                          Vegan Burger
+                        </span>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-3"
+                >
+                  <div
+                    class="product-card card"
+                  >
+                    <img
+                      alt="Beef Burger"
+                      class="product-card__image card-img-top"
+                      data-testid="product-card-image"
+                      src="https://media.istockphoto.com/photos/bacon-burger-picture-id520215281?s=612x612"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <h5
+                        class="product-card__title card-title"
+                      >
+                        <span
+                          data-testid="product-card-price"
+                        >
+                          $12
+                        </span>
+                         - 
+                        <span
+                          data-testid="product-card-title"
+                        >
+                          Beef Burger
+                        </span>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-3"
+                >
+                  <div
+                    class="product-card card"
+                  >
+                    <img
+                      alt="Lamb Burger"
+                      class="product-card__image card-img-top"
+                      data-testid="product-card-image"
+                      src="https://media.istockphoto.com/photos/bacon-burger-picture-id520215281?s=612x612"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <h5
+                        class="product-card__title card-title"
+                      >
+                        <span
+                          data-testid="product-card-price"
+                        >
+                          $12
+                        </span>
+                         - 
+                        <span
+                          data-testid="product-card-title"
+                        >
+                          Lamb Burger
+                        </span>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <h5
+                class="text--bold text--capitalize subheading__default"
+              >
+                fries
+              </h5>
+              <hr />
+              <div
+                class="row"
+              >
+                <div
+                  class="col-3"
+                >
+                  <div
+                    class="product-card card"
+                  >
+                    <img
+                      alt="Small Fries"
+                      class="product-card__image card-img-top"
+                      data-testid="product-card-image"
+                      src="https://media.istockphoto.com/photos/french-fries-with-sauce-picture-id1130883810"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <h5
+                        class="product-card__title card-title"
+                      >
+                        <span
+                          data-testid="product-card-price"
+                        >
+                          $7
+                        </span>
+                         - 
+                        <span
+                          data-testid="product-card-title"
+                        >
+                          Small Fries
+                        </span>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-3"
+                >
+                  <div
+                    class="product-card card"
+                  >
+                    <img
+                      alt="Large Fries"
+                      class="product-card__image card-img-top"
+                      data-testid="product-card-image"
+                      src="https://media.istockphoto.com/photos/french-fries-with-sauce-picture-id1130883810"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <h5
+                        class="product-card__title card-title"
+                      >
+                        <span
+                          data-testid="product-card-price"
+                        >
+                          $7
+                        </span>
+                         - 
+                        <span
+                          data-testid="product-card-title"
+                        >
+                          Large Fries
+                        </span>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <h5
+                class="text--bold text--capitalize subheading__default"
+              >
+                drinks
+              </h5>
+              <hr />
+              <div
+                class="row"
+              >
+                <div
+                  class="col-3"
+                >
+                  <div
+                    class="product-card card"
+                  >
+                    <img
+                      alt="Coca Cola"
+                      class="product-card__image card-img-top"
+                      data-testid="product-card-image"
+                      src="https://cdn.pixabay.com/photo/2015/01/08/04/18/box-592367_1280.jpg"
+                    />
+                    <div
+                      class="card-body"
+                    >
+                      <h5
+                        class="product-card__title card-title"
+                      >
+                        <span
+                          data-testid="product-card-price"
+                        >
+                          $3
+                        </span>
+                         - 
+                        <span
+                          data-testid="product-card-title"
+                        >
+                          Coca Cola
+                        </span>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-4"
+        nogutters="true"
+      >
+        <div
+          id="orders"
+        >
+          <h5
+            class="text--centered text--bold heading__default"
+          >
+            Order
+          </h5>
+          <div
+            class="container"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="col"
+              >
+                <div
+                  class="table-responsive"
+                >
+                  <table
+                    class="table"
+                  >
+                    <thead>
+                      <tr>
+                        <th>
+                          Quantity
+                        </th>
+                        <th>
+                          Name
+                        </th>
+                        <th>
+                          Price
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr
+                        class="orders-table__row"
+                      >
+                        <td>
+                          <button
+                            class="btn btn-secondary disabled"
+                            disabled=""
+                            type="button"
+                          >
+                            -
+                          </button>
+                          <span
+                            class="orders-text__regular"
+                          >
+                            0
+                          </span>
+                          <button
+                            class="btn btn-secondary"
+                            type="button"
+                          >
+                            +
+                          </button>
+                        </td>
+                        <td
+                          class="orders-text__regular"
+                        >
+                          Chicken Burger
+                        </td>
+                        <td
+                          class="orders-text__regular"
+                        >
+                          $12
+                        </td>
+                      </tr>
+                      <tr
+                        class="orders-table__row"
+                      >
+                        <td>
+                          <button
+                            class="btn btn-secondary disabled"
+                            disabled=""
+                            type="button"
+                          >
+                            -
+                          </button>
+                          <span
+                            class="orders-text__regular"
+                          >
+                            0
+                          </span>
+                          <button
+                            class="btn btn-secondary"
+                            type="button"
+                          >
+                            +
+                          </button>
+                        </td>
+                        <td
+                          class="orders-text__regular"
+                        >
+                          Vegan Burger
+                        </td>
+                        <td
+                          class="orders-text__regular"
+                        >
+                          $12
+                        </td>
+                      </tr>
+                      <tr
+                        class="orders-table__row"
+                      >
+                        <td>
+                          <button
+                            class="btn btn-secondary disabled"
+                            disabled=""
+                            type="button"
+                          >
+                            -
+                          </button>
+                          <span
+                            class="orders-text__regular"
+                          >
+                            0
+                          </span>
+                          <button
+                            class="btn btn-secondary"
+                            type="button"
+                          >
+                            +
+                          </button>
+                        </td>
+                        <td
+                          class="orders-text__regular"
+                        >
+                          Beef Burger
+                        </td>
+                        <td
+                          class="orders-text__regular"
+                        >
+                          $12
+                        </td>
+                      </tr>
+                      <tr
+                        class="orders-table__row"
+                      >
+                        <td>
+                          <button
+                            class="btn btn-secondary disabled"
+                            disabled=""
+                            type="button"
+                          >
+                            -
+                          </button>
+                          <span
+                            class="orders-text__regular"
+                          >
+                            0
+                          </span>
+                          <button
+                            class="btn btn-secondary"
+                            type="button"
+                          >
+                            +
+                          </button>
+                        </td>
+                        <td
+                          class="orders-text__regular"
+                        >
+                          Lamb Burger
+                        </td>
+                        <td
+                          class="orders-text__regular"
+                        >
+                          $12
+                        </td>
+                      </tr>
+                      <tr
+                        class="orders-table__row"
+                      >
+                        <td>
+                          <button
+                            class="btn btn-secondary disabled"
+                            disabled=""
+                            type="button"
+                          >
+                            -
+                          </button>
+                          <span
+                            class="orders-text__regular"
+                          >
+                            0
+                          </span>
+                          <button
+                            class="btn btn-secondary"
+                            type="button"
+                          >
+                            +
+                          </button>
+                        </td>
+                        <td
+                          class="orders-text__regular"
+                        >
+                          Small Fries
+                        </td>
+                        <td
+                          class="orders-text__regular"
+                        >
+                          $7
+                        </td>
+                      </tr>
+                      <tr
+                        class="orders-table__row"
+                      >
+                        <td>
+                          <button
+                            class="btn btn-secondary disabled"
+                            disabled=""
+                            type="button"
+                          >
+                            -
+                          </button>
+                          <span
+                            class="orders-text__regular"
+                          >
+                            0
+                          </span>
+                          <button
+                            class="btn btn-secondary"
+                            type="button"
+                          >
+                            +
+                          </button>
+                        </td>
+                        <td
+                          class="orders-text__regular"
+                        >
+                          Large Fries
+                        </td>
+                        <td
+                          class="orders-text__regular"
+                        >
+                          $7
+                        </td>
+                      </tr>
+                      <tr
+                        class="orders-table__row"
+                      >
+                        <td>
+                          <button
+                            class="btn btn-secondary disabled"
+                            disabled=""
+                            type="button"
+                          >
+                            -
+                          </button>
+                          <span
+                            class="orders-text__regular"
+                          >
+                            0
+                          </span>
+                          <button
+                            class="btn btn-secondary"
+                            type="button"
+                          >
+                            +
+                          </button>
+                        </td>
+                        <td
+                          class="orders-text__regular"
+                        >
+                          Coca Cola
+                        </td>
+                        <td
+                          class="orders-text__regular"
+                        >
+                          $3
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="col"
+              >
+                Total: 
+              </div>
+              <div
+                class="col"
+                data-testid="order-total"
+              >
+                $ 0
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <button
+                class="element--no-border-radius bg-success text-white p-3 mt-2 btn btn-secondary disabled"
+                disabled=""
+                type="button"
+              >
+                Pay
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,56 @@
+#orders {
+  border-left: 1px solid #ddd;
+  height: 100%;
+}
+
+.orders-text__regular {
+  font-size: .8rem;
+}
+
+.orders-table__row {
+  vertical-align: middle;
+}
+
+.orders-table__row td:first-child {
+  display: flex;
+  align-items: center;
+}
+
+/* overwrite default css */
+#orders .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#orders .container > .row:first-child {
+  flex-grow: 1;
+}
+
+#orders .table > :not(caption) > * > * {
+  border-bottom-width: 0px;
+}
+
+#orders .table > :not(:last-child) > :last-child > * {
+  border-bottom-color: #ddd;
+}
+
+#orders button,
+#orders button:disabled {
+  background-color: transparent;
+  text-decoration: none;
+  color: black;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  padding: 0 .5rem;
+}
+
+#orders button:hover,
+#orders button:focus,
+#orders button:active {
+  background-color: transparent;
+  color: black;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}

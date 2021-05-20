@@ -1,0 +1,292 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Products /> component Products Snapshot test 1`] = `
+<DocumentFragment>
+  <div
+    class="products"
+  >
+    <h5
+      class="text--centered text--bold heading__default"
+    >
+      Products
+    </h5>
+    <div
+      class="container"
+    >
+      <div
+        class="row"
+      >
+        <h5
+          class="text--bold text--capitalize subheading__default"
+        >
+          burger
+        </h5>
+        <hr />
+        <div
+          class="row"
+        >
+          <div
+            class="col-3"
+          >
+            <div
+              class="product-card card"
+            >
+              <img
+                alt="Chicken Burger"
+                class="product-card__image card-img-top"
+                data-testid="product-card-image"
+                src="https://media.istockphoto.com/photos/bacon-burger-picture-id520215281?s=612x612"
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="product-card__title card-title"
+                >
+                  <span
+                    data-testid="product-card-price"
+                  >
+                    $12
+                  </span>
+                   - 
+                  <span
+                    data-testid="product-card-title"
+                  >
+                    Chicken Burger
+                  </span>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-3"
+          >
+            <div
+              class="product-card card"
+            >
+              <img
+                alt="Vegan Burger"
+                class="product-card__image card-img-top"
+                data-testid="product-card-image"
+                src="https://media.istockphoto.com/photos/bacon-burger-picture-id520215281?s=612x612"
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="product-card__title card-title"
+                >
+                  <span
+                    data-testid="product-card-price"
+                  >
+                    $12
+                  </span>
+                   - 
+                  <span
+                    data-testid="product-card-title"
+                  >
+                    Vegan Burger
+                  </span>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-3"
+          >
+            <div
+              class="product-card card"
+            >
+              <img
+                alt="Beef Burger"
+                class="product-card__image card-img-top"
+                data-testid="product-card-image"
+                src="https://media.istockphoto.com/photos/bacon-burger-picture-id520215281?s=612x612"
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="product-card__title card-title"
+                >
+                  <span
+                    data-testid="product-card-price"
+                  >
+                    $12
+                  </span>
+                   - 
+                  <span
+                    data-testid="product-card-title"
+                  >
+                    Beef Burger
+                  </span>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-3"
+          >
+            <div
+              class="product-card card"
+            >
+              <img
+                alt="Lamb Burger"
+                class="product-card__image card-img-top"
+                data-testid="product-card-image"
+                src="https://media.istockphoto.com/photos/bacon-burger-picture-id520215281?s=612x612"
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="product-card__title card-title"
+                >
+                  <span
+                    data-testid="product-card-price"
+                  >
+                    $12
+                  </span>
+                   - 
+                  <span
+                    data-testid="product-card-title"
+                  >
+                    Lamb Burger
+                  </span>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <h5
+          class="text--bold text--capitalize subheading__default"
+        >
+          fries
+        </h5>
+        <hr />
+        <div
+          class="row"
+        >
+          <div
+            class="col-3"
+          >
+            <div
+              class="product-card card"
+            >
+              <img
+                alt="Small Fries"
+                class="product-card__image card-img-top"
+                data-testid="product-card-image"
+                src="https://media.istockphoto.com/photos/french-fries-with-sauce-picture-id1130883810"
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="product-card__title card-title"
+                >
+                  <span
+                    data-testid="product-card-price"
+                  >
+                    $7
+                  </span>
+                   - 
+                  <span
+                    data-testid="product-card-title"
+                  >
+                    Small Fries
+                  </span>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-3"
+          >
+            <div
+              class="product-card card"
+            >
+              <img
+                alt="Large Fries"
+                class="product-card__image card-img-top"
+                data-testid="product-card-image"
+                src="https://media.istockphoto.com/photos/french-fries-with-sauce-picture-id1130883810"
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="product-card__title card-title"
+                >
+                  <span
+                    data-testid="product-card-price"
+                  >
+                    $7
+                  </span>
+                   - 
+                  <span
+                    data-testid="product-card-title"
+                  >
+                    Large Fries
+                  </span>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <h5
+          class="text--bold text--capitalize subheading__default"
+        >
+          drinks
+        </h5>
+        <hr />
+        <div
+          class="row"
+        >
+          <div
+            class="col-3"
+          >
+            <div
+              class="product-card card"
+            >
+              <img
+                alt="Coca Cola"
+                class="product-card__image card-img-top"
+                data-testid="product-card-image"
+                src="https://cdn.pixabay.com/photo/2015/01/08/04/18/box-592367_1280.jpg"
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="product-card__title card-title"
+                >
+                  <span
+                    data-testid="product-card-price"
+                  >
+                    $3
+                  </span>
+                   - 
+                  <span
+                    data-testid="product-card-title"
+                  >
+                    Coca Cola
+                  </span>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

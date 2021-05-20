@@ -1,24 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { useEffect, useState } from 'react'; 
+import GlobalContexts from './contexts/globalContexts';
+import { mockProducts } from './constants/mocks';
+// components
+import Dashboard from './components/Templates/Dashboard/Dashboard';
 
 function App() {
+  const [contexts, setContexts] = useState({
+    products: []
+  });
+
+  useEffect(() => {
+    function fetchProducts() {
+      setContexts({
+        products: mockProducts // later should create new backend route to make API request to get products
+      });
+    }
+
+    fetchProducts();
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <GlobalContexts.Provider value={{ contexts, setContexts }}>
+      <Dashboard />
+    </GlobalContexts.Provider>
   );
 }
 
